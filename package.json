@@ -15,7 +15,7 @@
     "express": "^4.17.1"
   },
   "engines": {
-    "node": "16.14.0"
+    "node": "20.9.0"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/discord-js-v14-template-glitch"
