@@ -1,0 +1,29 @@
+{
+  "name": "Discord-js-v14-template-for-glitch",
+  "version": "14",
+  "description": "It is template of Discord.js v14.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "querystring": "^0.2.0",
+    "request-promise": "^4.2.6",
+    "request": "^2.88.2",
+    "axios": "^1.7.7",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "16.14.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/discord-js-v14-template-glitch"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "template"
+  ]
+}
