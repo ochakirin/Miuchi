@@ -59,7 +59,7 @@ http
               .send(
                  '@everyone' + "\n" +
                   planstring +
-                  "\n とnanaさんがおっしゃっています。"
+                  "\n とジャック様がおっしゃっています。"
               );
 
           };
