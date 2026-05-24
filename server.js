@@ -220,7 +220,7 @@ if (message.content.includes('ノルマ')) {
 var date = new Date().toLocaleDateString("ja-JP", {year: "numeric",month: "2-digit",
    day: "2-digit"}).replaceAll('/', '-')  
   
-var result = 'https://docs.google.com/forms/d/e/1FAIpQLSdbIHyC4VktFCmCWcBUD6WOms3Emq9S_Y3-iOYn441bSLpJNA/viewform?usp=pp_url&entry.2045982873='
+var result = 'https://docs.google.com/forms/d/e/1FAIpQLSdCaLceeWB7xvW4g-uH3sp-mwVjr9t8Co9ZvQyuWYDNuLgYuA/viewform?usp=pp_url&entry.2045982873='
 + message.member.displayName 
 + '&entry.1856541690=' + date
 + '&entry.662266852=' + message.member.id
@@ -232,7 +232,7 @@ message.reply('下記URLからノルマの提出をお願いします。'+ "\n" 
 }else if (message.content.includes('リマインド')) {
 
   
-var result = 'https://docs.google.com/forms/d/e/1FAIpQLSceeFZl1BdtA9t0vIPsQNUDvUBZnOEjlkR3PLXNfWPyzZlbBQ/viewform?usp=pp_url&entry.487257199=' 
+var result = 'https://docs.google.com/forms/d/e/1FAIpQLSeyCyTu1PRrqw4r7eTc6nFb30zVWXBOwGwXJP722vTCG2OvRA/viewform?usp=pp_url&entry.487257199=' 
 + message.channel.id
 
 message.reply(result);
